@@ -5,17 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tablet.css" media="(max-width:1100px)"/>
+    <link rel="stylesheet" href="mobile.css" media="(max-width:415px)"/>
 </head>
 <body>
+    <!-- HERO SECTION STARTS HERE -->
     <section class="hero">
         <div class="hero1">
+            <img class="pic" src="/Assets-images/young-african-family-dealing-financial-issues 1.jpg" alt="family-pic">
 
+            <img class="logo" src="/Assets-images/Logo com.png" alt="Logo">
         </div>
 
         <div class="hero2">
+            <div class="hero2a">
+                <h3>Welcome to CreditNest</h3>
 
+                <p>Sign In to continue</p>
+
+                <div class="inputF">
+                    <form action="#">
+                        <label for="username">Email</label><br>
+                        <input type="email" id="email" name="email" placeholder="Enter here"><br><br>
+                        <label for="pwd">Password</label><br>
+                        <input type="password" id="pwd" name="pwd" placeholder="Enter here"><br><br>
+                        <input class="sub-btn" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+
+            <div class="or">
+                <hr>
+                <p>or</p>
+                <hr>
+            </div>
+
+            <div class="cons">
+                <span>
+                    <img src="/Assets-images/Symbol.svg.png" alt="google-icon">
+
+                    <p>Continue with Google</p>
+                </span>
+
+                <span>
+                    <img src="/Assets-images/Logo.svg.png" alt="apple-icon">
+
+                    <p>Continue with Apple</p>
+                </span>
+            </div>
+
+            <p class="account">Already have an account? <span>login</span></p>
         </div>
     </section>
+     <!-- HERO SECTION ENDS HERE -->
 
     <script src="main.js"></script>
 </body>

@@ -1,0 +1,107 @@
+/* HERO SECTION EDIT STARTS HERE */
+section.hero{
+    padding: 5rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+/* HERO SECTION EDIT ENDS HERE */
+
+/* FIRST HALF OF HERO SECTION EDIT STARTS HERE */
+.hero1{
+    height: 80vh;
+    width: 54vw;
+}
+
+.logo{
+    font-size: 1rem;
+    position: absolute;
+    left: 2rem;
+    top: 7rem;
+}
+
+.hero1 .pic{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    position: relative;
+}
+/* FIRST HALF OF HERO SECTION EDIT ENDS HERE */
+
+/* SECOND HALF OF HERO SECTION EDIT STARTS HERE */
+.hero2a{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero2a h3{
+    color: #094780;
+    font-size: 2rem;
+}
+
+.hero2a p{
+    padding-bottom: 1.5rem;
+}
+
+.inputF{
+    margin-top: -2rem;
+}
+
+.inputF label{
+    font-size: 0.9rem;
+    color: #737373;
+}
+
+.inputF input{
+    padding: 0.5rem;
+    width: 45vw;
+}
+
+.sub-btn{
+    background-color: #094780;
+    color: white;
+    border-radius: 0.4rem;
+    border: none;
+    width: 47vw !important;
+    cursor: pointer;
+}
+
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.or hr{
+    width: 100%;
+    height: 0.0001rem;
+    color: #737373;
+}
+
+.cons{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cons span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    border: 1px solid #094780;
+    border-radius: 0.4rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.account{
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.account span{
+    color: #094780;
+}
+/* SECOND HALF OF HERO SECTION EDIT ENDS HERE */
